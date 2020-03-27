@@ -9,7 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1acQujOWZ4NqhBQ2OvmOE1wZyjSrtxHKZ'
+#export_file_url = 'https://drive.google.com/open?id=1acQujOWZ4NqhBQ2OvmOE1wZyjSrtxHKZ'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1acQujOWZ4NqhBQ2OvmOE1wZyjSrtxHKZ'
 export_file_name = 'export.pkl'
 
 classes = ['allosaurus', 'ceratosaurus']
